@@ -1,5 +1,4 @@
 use std::env;
-use std::process;
 
 fn main() {
     let args: Vec<String> = env::args().collect();
@@ -12,4 +11,10 @@ fn main() {
     };
     let message = &args[1];
     println!("{}", message);
+    // Double backslashes are needed to make Rust not think they are an escape character. Only one backslash will show, as intended
+    println!(" \\   ^__^");
+    println!("  \\  (oo)\\_______");
+    println!("     (__)\\       )\\/\\");
+    println!("         ||----w |");
+    println!("         ||     ||");
 }
