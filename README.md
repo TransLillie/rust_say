@@ -1,1 +1,2 @@
-rust_say
+# rust_say
+Cowsay clone written in Rust
